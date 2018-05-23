@@ -1,11 +1,8 @@
+document.getElementById('as').onclick = function() {
+	callme()
+   	};
+  	function callme()
+     	{
+     		alert('function');
+     	}
 
-function add()
-{
-	alert(5+2324);
-}
-	
-
-document.getElementById('i').onclick = function ()
-{
-	add()
-};
